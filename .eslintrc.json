@@ -27,11 +27,7 @@
         "react/prop-types": "off",
         "react/jsx-indent": ["error", 2],
         "react/jsx-indent-props": [2, 2],
-        "react/jsx-curly-spacing": ["error", {
-            "children": {
-                "when": "always"
-            }
-        }],
+        "react/jsx-curly-spacing": ["error", { "children": { "when": "always" } }],
         "jsx-quotes": 1,
         "react/jsx-closing-bracket-location": 1
     },
