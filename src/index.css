@@ -5,3 +5,10 @@ html, body {
     font-size: 1.3rem;
     padding: 70px;
 }
+
+button {
+    padding: 12px;
+    margin: 6px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}

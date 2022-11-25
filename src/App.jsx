@@ -1,14 +1,13 @@
 import './App.css'
-import PropTypesComponent from './components/PropTypesComponent'
+// import PropTypesComponent from './components/PropTypesComponent'
+import CounterApp from './components/CounterApp'
 
 function App () {
   return (
     <>
       <h1>Hello World</h1>
-      <PropTypesComponent
-        title={'demo'}
-        subtitle={2}
-      />
+      { /* <PropTypesComponent title={'demo'} subtitle={2} /> */ }
+      <CounterApp initValue={1} />
     </>
   )
 }
