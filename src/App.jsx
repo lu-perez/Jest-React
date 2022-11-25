@@ -1,13 +1,14 @@
 import './App.css'
+import PropTypesComponent from './components/PropTypesComponent'
 
 function App () {
-  const str = `    
-    Hello
-  `
   return (
     <>
       <h1>Hello World</h1>
-      { str }
+      <PropTypesComponent
+        title={'demo'}
+        subtitle={2}
+      />
     </>
   )
 }
