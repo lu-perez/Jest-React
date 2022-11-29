@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <PropTypesComponent /> debe de hacer match con el snapshot 1`] = `
+<div>
+  <h1>
+    Hola, soy Goku
+  </h1>
+  <p />
+  <p>
+    data
+  </p>
+</div>
+`;

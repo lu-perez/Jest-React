@@ -6,8 +6,8 @@ function App () {
   return (
     <>
       <h1>Hello World</h1>
-      { /* <PropTypesComponent title={'demo'} subtitle={2} /> */ }
-      <CounterApp initValue={1} />
+      {/* { <PropTypesComponent title={'Hola, soy Goku'} subtitle={2} /> } */}
+      <CounterApp initValue={100} />
     </>
   )
 }

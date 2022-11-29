@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
 
-const PropTypesComponent = ({ title, subtitle, someData }) => {
+export const PropTypesComponent = ({ title, subtitle, someData }) => {
   return (
     <>
-      <h2>{ title }</h2>
-      <p>{ subtitle }</p>
-      <p>{ someData }</p>
+      <h1>{title}</h1>
+      <p>{subtitle}</p>
+      <p>{someData}</p>
     </>
   )
 }
@@ -16,8 +16,6 @@ PropTypesComponent.propTypes = {
 }
 
 PropTypesComponent.defaultProps = {
-  title: 'No title',
+  // title: 'No title',
   someData: 'data'
 }
-
-export default PropTypesComponent
